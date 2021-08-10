@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-08-08T21:51:12.802Z",
+        "start_timestamp": "2021-08-10T22:41:10.691Z",
         "line": 5,
         "name": "login every hour, if unsuccessful, warn",
         "description": "",
@@ -16,7 +16,7 @@
               "status": "undefined"
             },
             "line": 6,
-            "name": "Go to bookzpro.com home page",
+            "name": "Go tto bookzpro.com home page",
             "match": {},
             "keyword": "Given "
           },
@@ -31,6 +31,7 @@
           },
           {
             "result": {
+              "duration": 2000000,
               "status": "skipped"
             },
             "line": 8,
@@ -46,6 +47,15 @@
             "name": "enter the user Password",
             "match": {},
             "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "user Clicks Login button",
+            "match": {},
+            "keyword": "Then "
           }
         ],
         "tags": [

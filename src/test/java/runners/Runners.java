@@ -8,8 +8,8 @@ import org.junit.runner.RunWith;
         plugin = {"pretty","html:target\\default-cucumber-reports9.html",
                 "json:target\\json-reports/cucumber9.json",
                 "junit:target\\xml-report/cucumber9.xml"},
-        features = "src/test/resources/features",
-        glue = "Hsaruhan01/src/test/java/stepdefinitions/LoginStepDefinitions",
+        features = "src/test/resources",
+        glue = "Hsaruhan01/src/test/java/stepdefinitions",
 
         tags = "@LoginTest",
         dryRun = false
